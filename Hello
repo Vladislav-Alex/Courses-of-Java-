@@ -1,1 +1,15 @@
-Hello
+public class New {
+	public static void main(String[] args) {
+		
+		int first;
+		first = 5; 
+		int second;
+		second = 2;
+		for (int i = 2; i <= first; i++) {
+			double K;
+			K = Math.pow(second, i);
+			System.out.println(K);
+		}
+	}
+
+}
